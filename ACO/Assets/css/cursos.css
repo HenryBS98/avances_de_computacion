@@ -1,0 +1,206 @@
+.page_section{
+    padding: 100px 0;
+}
+.btn-naranja{
+	background-color:  #c32c2e;
+}
+.btn-naranja:hover{
+	background-color:  #c32c2e;
+	opacity: 0.8;
+}
+/*********************************
+9. Popular
+*********************************/
+
+.popular
+{
+
+}
+.course_boxes
+{
+	margin-top: 68px;
+}
+.course_box
+{
+	margin-bottom: 108px;
+}
+.course_box:nth-last-child(-n+3)
+{
+	margin-bottom: 0px;
+}
+.card
+{
+	display: block;
+	background: #f8f9fb;
+	border: none;
+}
+.card-img-top
+{
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.card-body
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.card-title
+{
+	margin-top: 55px;
+}
+.card-title a
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #1a1a1a;
+	line-height: 1.2;
+}
+.card-title a:hover
+{
+	color: #a5a5a5;
+}
+.card-text
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #a5a5a5;
+	margin-top: -12px;
+}
+.price_box
+{
+	width: 100%;
+	height: 67px;
+	background: #eaebec;
+	margin-top: 41px;
+	padding-left: 35px;
+}
+.course_author_image
+{
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.course_author_name
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #1a1a1a;
+	padding-left: 20px;
+	margin-top: 7px;
+}
+.course_author_name span
+{
+	color: #a5a5a5;
+}
+.course_price
+{
+	width: 67px;
+	height: 67px;
+	background: #c32c2e;
+	margin-left: auto;
+}
+.course_price span
+{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 7px;
+}
+
+
+/* **************************** */
+/*********** Footer **********/
+/* **************************** */
+ul
+{
+	list-style: none;
+	padding: 0px;
+}
+.footer
+{
+	width: 100%;
+	background: #1a1a1a;
+}
+.footer .section_title h1
+{
+	color: #FFFFFF;
+}
+.footer_content 
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: solid 2px #4d4e4e;
+}
+.footer_content .logo_container
+{
+	padding-left: 0px;
+}
+.footer_content .logo span
+{
+	color: #FFFFFF;
+}
+.footer_about_text
+{
+	margin-top: 24px;
+	margin-bottom: 0px;
+	padding-right: 20px;
+}
+.footer_column_title
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #FFFFFF;
+	padding-top: 15px;
+}
+.footer_column_content
+{
+	margin-top: 32px;
+}
+.footer_list_item
+{
+	margin-bottom: 11px;
+}
+.footer_list_item a
+{
+	font-size: 14px;
+	color: #a5a5a5;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.footer_list_item a:hover
+{
+	color: #c32c2e;
+}
+.footer_contact_item
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a5a5a5;
+	margin-bottom: 22px;
+}
+.footer_contact_item:last-child
+{
+	margin-bottom: 0px;
+}
+.footer_contact_icon
+{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.footer_contact_icon img
+{
+	width: 100%;
+}
+/*********** Footer Copyright ******************/
+.footer_bar{
+	padding: 30px 0;
+}

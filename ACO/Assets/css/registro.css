@@ -1,0 +1,48 @@
+body
+{
+    color: #222;
+    padding: 45px 0; 
+    background-image: url("../../Img/ds.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.btn-naranja{
+	background-color:  #c32c2e;
+}
+.btn-naranja:hover{
+	background-color:  #c32c2e;
+	opacity: 0.8;
+}
+.container
+{
+    width: 680px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 1px 3px 14px -3px #ffffff;
+    border-radius: 20px; 
+}
+.nopadding
+{
+	padding: 0px !important;
+}
+.mensaje_seccion
+{
+	width: 100%;
+	height: 100%;
+    background-color: #ececec;
+    opacity: 0.94;
+    padding: 25px 35px;
+    border-radius: 20px;   
+}
+.mensaje_contenido
+{
+    width: 100%;
+    height: auto;
+}
+
+.bg-step
+{
+    border: 1px solid #282828;
+    padding: 35px;
+    margin-bottom: 20px
+}

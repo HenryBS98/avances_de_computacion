@@ -1,0 +1,62 @@
+body
+{
+    color: #222;
+    background: #282828;
+    padding: 45px 0; 
+}
+.signup-img{
+    width: 100%; 
+    margin-bottom: -7px; 
+}
+.btn-naranja{
+    background-color:  #c32c2e;
+}
+.btn-naranja:hover{
+    background-color:  #c32c2e;
+    opacity: 0.8;
+}
+  
+/* **************************** */
+/*********** LOGIN **************/
+/* **************************** */
+
+/*********** Imagen **********/
+
+.login_img img
+{
+    width: 100%;
+    height: auto;
+}
+.nopadding
+{
+	padding: 0px !important;
+}
+/***********Login**********/
+.mensaje_seccion
+{
+	width: 100%;
+	height: 100%;
+    background: #ececec;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+
+}
+.mensaje_contenido
+{
+    width: 75%;
+}
+
+@media screen and (max-width: 992px)
+{
+    .container 
+    {
+      width: calc(100% - 40px);
+      max-width: 100%; 
+    }
+    .signup-img, .signup-form 
+    {
+      width: 100%; 
+    } 
+}
+
